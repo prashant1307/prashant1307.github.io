@@ -1,12 +1,12 @@
 import { Box, Button, Center, Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
-
+import CV from "../Assets/Prashant-Kumar-Resume.pdf";
 //import Typewriter from "typewriter-effect";
 
 const Home = () => {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("Prashant-Kumar-Resume.pdf").then((response) => {
+    fetch(CV).then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);

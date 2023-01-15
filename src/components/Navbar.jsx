@@ -3,12 +3,12 @@ import { Box, Flex, Heading, IconButton, Text } from "@chakra-ui/react";
 import { Link } from "react-scroll";
 import { IconBase } from "react-icons";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
-// import CV from "../Assets/Prashant_Kumar_Resume.pdf";
+ import CV from "../Assets/Prashant-Kumar-Resume.pdf";
 
 const Navbar = () => {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("Prashant-Kumar-Resume.pdf").then((response) => {
+    fetch(CV).then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
