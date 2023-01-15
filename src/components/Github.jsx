@@ -36,13 +36,13 @@ const Github = () => {
           </Heading>
         </Center>
         <Center>
-          <Box marginTop={10} w={["90%", "90%"]}>
+          <Box marginTop={10} borderRadius="10" padding="5" bg="white" w={["80%", "80%"]}>
             <Center>
             <GitHubCalendar style={{margin:"auto"}}
       username="prashant1307"
-      transformData={selectLastHalfYear}
+      // transformData={selectLastHalfYear}
       hideColorLegend
-      blockSize={15}
+      blockSize={14}
       blockMargin={6}
       fontSize={20}
       />

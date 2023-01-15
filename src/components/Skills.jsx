@@ -108,7 +108,7 @@ const Skills = () => {
         </Center>
         <Center>
           <Box>
-            <SimpleGrid marginTop={10} columns={[2,2,4,6]} spacing={10}>
+            <SimpleGrid marginTop={10} columns={[2,3,4,6]} spacing={10}>
               {skillsData.map((el) => (
                 <Container
                 boxShadow="rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;"

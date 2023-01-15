@@ -154,10 +154,12 @@ const Project = () => {
               <Text  marginBottom={'10px'} color={'white'}
                 fontSize={"15px"}
                 textAlign={"left"}>{el.p1}</Text>
-              
+                
                 {/* {el.stack.map((eq) => techStack[eq])} */}
-                <Text color={'white'}
+              
+                <Text w="100%" p="5px" borderRadius="10px" color={'#abde04'}
                 fontSize={"17px"}
+                fontWeight="medium"
                 textAlign={"left"}>Tech Stack - {el.stack}</Text>
               
               <Flex
@@ -178,7 +180,7 @@ const Project = () => {
                     borderRadius="7px"
                     fontSize="20px"
                     fontWeight="semibold"
-                    bg="crimson"
+                    bg="#319795"
                     borderColor="#ccd0d5"
                     color="white"
                     _hover={{ cursor: "pointer" }}
@@ -208,7 +210,7 @@ const Project = () => {
                     borderRadius="7px"
                     fontSize="20px"
                     fontWeight="semibold"
-                    bg="crimson"
+                    bg="#319795"
                     borderColor="#ccd0d5"
                     color="white"
                     _hover={{ cursor: "pointer" }}

@@ -3,25 +3,24 @@ import { Box, Flex, Heading, IconButton, Text } from "@chakra-ui/react";
 import { Link } from "react-scroll";
 import { IconBase } from "react-icons";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
-import CV from "../Assets/Prashant_Kumar_Resume.pdf"
+// import CV from "../Assets/Prashant_Kumar_Resume.pdf";
 
 const Navbar = () => {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    
-    fetch("Prashant_Kumar_Resume.pdf").then((response) => {
+    fetch("Prashant-Kumar-Resume.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Prashant_Kumar_Resume.pdf";
+        alink.download = "Prashant-Kumar-Resume.pdf";
         alink.click();
       });
     });
-    window.open("https://drive.google.com/file/d/1uyNolfP7hgpQ_p-kBF3SS4lJcDX7mSI0/view?usp=share_link", '_blank');
-    // changeDisplay("none")
+    window.open("https://drive.google.com/file/d/1uyNolfP7hgpQ_p-kBF3SS4lJcDX7mSI0/view", '_blank');
+
   };
 
   const [display, changeDisplay] = useState("none");
@@ -42,7 +41,7 @@ const Navbar = () => {
 
         <Flex>
           <Flex display={["none", "none", "flex", "flex"]}>
-            <Link to={"home"} offset={-100} smooth duration={500}>
+            {/* <Link to={"home"} offset={-100} smooth duration={500}>
               <Text
                 padding={"10px 15px 10px 15px"}
                 borderRadius="10px"
@@ -53,8 +52,8 @@ const Navbar = () => {
               >
                 HOME
               </Text>
-            </Link>
-            <Link to={"about"} offset={-100} smooth duration={500}>
+            </Link> */}
+            <Link to={"home"} offset={-100} smooth duration={500}>
               <Text
               color='white'
                 padding={"10px 15px 10px 15px"}
@@ -63,7 +62,7 @@ const Navbar = () => {
                 _hover={{ color: "white", backgroundColor: "crimson" }}
                 fontSize={18}
               >
-                ABOUT
+                ABOUT ME
               </Text>
             </Link>
             <Link offset={-100} smooth duration={500} to="skills">

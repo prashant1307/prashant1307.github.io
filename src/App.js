@@ -14,7 +14,7 @@ function App() {
     <div style={{background:"rgb(51,65,85)"}}>
         <Navbar/>
       <Home/>
-      <About/>
+      {/* <About/> */}
       <Skills/>
       <CommunicationSkills/>
       <Project/>

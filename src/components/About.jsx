@@ -37,9 +37,9 @@ const About = () => {
          
           
           <UnorderedList marginTop={7} lineHeight={2}>
-            <ListItem lineHeight={'25px'} color='white' fontSize={["12px", "15px","15px","20px"]}>
+            {/* <ListItem lineHeight={'25px'} color='white' fontSize={["12px", "15px","15px","20px"]}>
             Aspiring Full-Stack Web Developer, passionate about learning the latest technology and curious in thinking how that can improve the existing products. Always try to make the user experience more smooth by making the best use of my skills and I always strive for improvement in everything.
-            </ListItem>
+            </ListItem> */}
 
             <ListItem marginTop={'20px'} lineHeight={'25px'} color='white' fontSize={["12px", "15px","15px","20px"]}>
               I Love solving DSA problems on some online platforms like HackerRank & LeetCode, also I've got 5-star for problem solving on HackerRank.
