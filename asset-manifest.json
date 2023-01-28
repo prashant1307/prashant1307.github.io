@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.f5b7362e.js",
+    "main.js": "/static/js/main.bc2e5f4e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/miniYT.jpg": "/static/media/miniYT.f6bf15091d6561512ca4.jpg",
     "static/media/dotandkey.jpg": "/static/media/dotandkey.167efb1859a4625d5a69.jpg",
     "static/media/modesens.jpg": "/static/media/modesens.8ed7b1cb6290414704f8.jpg",
     "static/media/toggl.jpg": "/static/media/toggl.4e07da765548e8d89cf1.jpg",
-    "static/media/Prashant-Kumar-Resume.pdf": "/static/media/Prashant-Kumar-Resume.db97635cd40f2a017707.pdf",
+    "static/media/Prashant-Kumar-Resume.pdf": "/static/media/Prashant-Kumar-Resume.5b284218510d73dc359f.pdf",
     "static/media/logo.jpg": "/static/media/logo.798243f58ada76646cdf.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.f5b7362e.js.map": "/static/js/main.f5b7362e.js.map",
+    "main.bc2e5f4e.js.map": "/static/js/main.bc2e5f4e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f5b7362e.js"
+    "static/js/main.bc2e5f4e.js"
   ]
 }
